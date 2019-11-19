@@ -1,17 +1,15 @@
 Designing CIC Compensation Filters
 ==================================
 
-:date: 2019-11-18
-:tags: DSP, CIC, FPGA
-:category: dsp
-:slug: cic-compensation
-:summary: Designing CIC compensation filters without MATLAB
+.. note::
+        The following content is taken from a blog post on
+        http://threespeedlogic.com. BitBucket's support for
+        RST directives (such as equations) is limited, so the
+        formatting may suffer here.
 
 This page describes how to design CIC compensation filters using open-source
 tools. Due to the use of newer algorithms, compensators designed using this
 method should outperform MATLAB's built-in "ciccomp" filters.
-
-.. contents:: Table of Contents
 
 A Little Motivation
 -------------------
