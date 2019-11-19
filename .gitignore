@@ -1,0 +1,6 @@
+*.swp
+*.o
+ciccomp.dat
+main
+ciccomp_impulse.png
+ciccomp_spectrum.png
