@@ -27,8 +27,7 @@
 #ifndef UTIL_H_
 #define UTIL_H_
 
-#include <gmp.h>
-#include <mpfr.h>
+#include <mpreal.h>
 #include <utility>
 #include <vector>
 #include <cstdlib>
@@ -39,7 +38,6 @@
 #include <algorithm>
 #include <functional>
 #include <cmath>
-#include "../mpreal.h"
 #include <eigen3/Eigen/Dense>
 #include <eigen3/Eigen/Eigenvalues>
 
