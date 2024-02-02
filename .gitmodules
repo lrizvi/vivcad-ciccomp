@@ -1,0 +1,3 @@
+[submodule "include/mpreal"]
+	path = include/mpreal
+	url = https://github.com/advanpix/mpreal.git

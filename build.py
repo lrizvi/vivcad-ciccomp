@@ -1,3 +1,4 @@
+import setuptools, os
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 
 def build(setup_kwargs):
@@ -19,8 +20,7 @@ def build(setup_kwargs):
                 '-O3'
             ],
             extra_link_args = [
-                '-l:libgomp.a',
-                '-l:mpfr.a'
+                '-Bstatic -lgomp -lmpfr'
             ],
             language = 'c++',
             cxx_std = 11

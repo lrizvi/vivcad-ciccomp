@@ -38,6 +38,7 @@
           packages = with pkgs; [
             poetry
             mpfr
+            eigen
           ];
         };
       });
